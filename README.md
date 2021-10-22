@@ -22,8 +22,8 @@ Les instructions sont à retrouver dans le pdf instruction.pdf.
 
 Pour rappel, la probabilité de recevoir une réponse à un mail envoyé quelques heures avant le rendu est très proche de 0.
 
-**Lien pour Trello
+**Lien pour Trell**
 https://trello.com/b/B2870kQl/dashboard
 
-**Lien pour Figma
+**Lien pour Figma**
 
