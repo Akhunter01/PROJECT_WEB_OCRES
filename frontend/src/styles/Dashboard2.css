@@ -1,0 +1,381 @@
+/* -----------------------------------the biggest box -------------------------------*/
+body {
+  background-color: #e5e5e5;
+}
+
+.body {
+  display: flex;
+  background-color: #e5e5e5;
+}
+
+.middleScreen {
+  display: flex;
+}
+
+/*  -----------------------------------the three main boxes, aside  -----------------------------------*/
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 12px 12px 0;
+}
+
+.main {
+  background-color: #e5e5e5;
+}
+
+.rightFrame {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  color: #ffffff;
+  border-radius: 30px 0 0 30px;
+  background-color: #303030;
+}
+
+/*  ----------------------------------- head ----------------------------------- */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.upRight {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 2rem 1rem 2rem 1rem;
+}
+
+/*  ----------------------------------- NavBar ----------------------------------- */
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  background-color: #ffffff;
+}
+
+/*  ----------------------------------- title and icone of every frame ----------------------------------- */
+
+.card {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.iconWidg {
+  padding: 0.5rem;
+}
+
+/*  ----------------------------------- organization of the frames ----------------------------------- */
+
+.widgets {
+  /* display: flex; */
+  padding: 0.5rem;
+}
+
+.imageFood {
+  margin-bottom: 1rem;
+}
+
+.group1 {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+}
+
+.group2 {
+  padding: 2rem;
+  padding-top: 0;
+}
+
+.littleWidget {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.food {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.food1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.clickBut {
+  padding: 0.5rem;
+}
+
+.tips {
+  grid-column: 1 / 4;
+}
+
+/* contenu du widget time in bed */
+.data {
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+.impData {
+  font-weight: bold;
+  font-size: 120%;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.impData2 {
+  font-weight: bold;
+  font-size: 200%;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.imageFood {
+  border-radius: 10px;
+}
+
+/* right frame */
+.textLine {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.inputLine {
+  background-color: rgba(144, 140, 140, 0.9);
+}
+
+.unity {
+  padding-left: 1rem;
+}
+
+.chart {
+  padding: 1rem;
+}
+.mansBody {
+  padding-top: 2rem;
+  height: 500px;
+  padding-bottom: 1rem;
+}
+/* --------------------------citation ------------------------------------*/
+
+blockquote {
+  min-height: 5em;
+  padding: 1em 4em;
+  font: 1em/150% sans-serif;
+  position: relative;
+  background-color: #ffffff;
+}
+
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  height: 3rem;
+  font: 6rem/100% Georgia, "Times New Roman", Times, serif;
+}
+
+blockquote::before {
+  content: "“";
+  top: 0.3rem;
+  left: 0.9rem;
+}
+
+blockquote::after {
+  content: "”";
+  bottom: 0.3rem;
+  right: 0.8rem;
+}
+
+blockquote:lang(fr)::before {
+  content: "«";
+  top: -1.5rem;
+  left: 0.5rem;
+}
+
+blockquote:lang(fr)::after {
+  content: "»";
+  bottom: 2.6rem;
+  right: 0.5rem;
+}
+
+blockquote i {
+  display: block;
+  font-size: 0.8em;
+  margin-top: 1rem;
+  font-style: italic;
+  text-align: right;
+}
+
+/* --------------------------------- admin page --------------------------- */
+.arrayANDform {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  margin: 10px 50px 10px 50px;
+}
+
+table {
+  border: 2px solid #333;
+  width: 100%;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  border: 1px solid;
+  border-color: #333;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.button1:hover,
+button1:focus {
+  cursor: pointer;
+}
+
+form {
+  margin: 20px 0 50px 0;
+}
+
+/* ----------------------------- on tablet ----------------------------- */
+
+@media (max-width: 1100px) and (min-width: 650px) {
+  .middleScreen {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightFrame {
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .group1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+    gap: 2rem;
+  }
+  blockquote {
+    padding: 0.5rem;
+  }
+
+  blockquote::before,
+  blockquote::after {
+    display: none;
+  }
+  .side {
+    display: none;
+  }
+  .tips {
+    grid-column: 1 fr;
+  }
+
+  /* .mansBody {
+    display: none;
+  } */
+  .card {
+    display: flex;
+    justify-content: center;
+  }
+  .mealGrams {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* ------------------------------ on phone -----------------------------*/
+@media (max-width: 650px) {
+  .body {
+    flex-direction: column;
+  }
+  .rightFrame {
+    border-radius: 30px 30px 0 0;
+  }
+  .mainTitle {
+    padding-left: 1rem;
+  }
+  .side {
+    display: none;
+  }
+  tbody {
+    width: 10rem;
+  }
+  .navbar {
+    order: 1;
+    flex-direction: row;
+    position: sticky;
+    bottom: 0px;
+    z-index: 1;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 0.3em rgb(51, 49, 49);
+  }
+
+  .metaLogo {
+    display: none;
+  }
+
+  .logos {
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    padding-right: 0;
+  }
+  .middleScreen {
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .group1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputLine {
+    max-width: 90px;
+  }
+  .mansBody {
+    display: none;
+  }
+  .mealGrams {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
